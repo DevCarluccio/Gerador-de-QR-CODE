@@ -1,0 +1,60 @@
+@media screen and (max-width: 780px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        max-width: 100%;
+        background:rgb(44, 179, 209) ;
+    }
+    
+    header h1 {
+        text-transform: uppercase;
+    }
+
+    .container {
+        margin-top: 10%;
+        min-height: 0 auto ;
+        width: 100%;
+        padding: 20px 10px;
+    }
+    .container .form {
+        padding: 10px 0 12px;
+    }
+
+    .form button {
+        margin: 20px 0;
+        font-size: 16px;
+    }
+
+    .form input {
+        margin-top: 20px;
+        padding: 0 10px;
+        font-size: 16px;
+    }
+
+    .qr-code .img {
+        width: 130px;
+        height: auto;
+    }
+
+   .img-code .img-qr-code {
+        margin: 20px 0;
+        max-width: 290px;
+        height: 290px;
+    }
+
+    .autor {
+        margin-top: 4rem;
+        color: rgb(80, 74, 79);
+    }
+
+    
+}
